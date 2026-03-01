@@ -1,0 +1,4 @@
+I enjoy learning artificial intelligence because it helps me solve real problems.
+Tokenization is an important step in natural language processing.
+I am building a PyTorch project to compare tokenizers.
+How do we handle punctuation, apostrophes, and multilingual text?

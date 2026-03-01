@@ -1,0 +1,4 @@
+Me gusta aprender inteligencia artificial porque me ayuda a resolver problemas reales.
+La tokenización es un paso importante en el procesamiento de lenguaje natural.
+Estoy construyendo un proyecto en PyTorch para comparar tokenizadores.
+¿Cómo manejamos palabras con acentos como análisis, canción y programación?

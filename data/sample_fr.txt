@@ -1,0 +1,4 @@
+J'aime apprendre l'intelligence artificielle parce qu'elle m'aide à résoudre des problèmes réels.
+La tokenisation est une étape importante du traitement du langage naturel.
+Je construis un projet PyTorch pour comparer des tokeniseurs.
+Comment gérer les apostrophes, les accents et les mots composés ?
