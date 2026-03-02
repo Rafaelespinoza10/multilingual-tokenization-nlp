@@ -1,10 +1,7 @@
 from config import SAMPLE_ES, SAMPLE_EN, SAMPLE_FR, HF_MODEL_NAME, SPACY_MODELS
 from pipelines.pipeline_tokenizer import DataPipeline, TokenizerEvalPipeline
 
-from tokenizers.char_tokenizer import CharTokenizer
-from tokenizers.word_tokenizer import WordTokenizer
-from tokenizers.hf_wordpiece_tokenizer import HFWordpieceTokenizer
-from tokenizers.spacy_tokenizer import SpacyTokenizer
+from text_tokenizer import CharTokenizer, WordTokenizer, HFWordpieceTokenizer, SpacyTokenizer
 
 
 def main():
