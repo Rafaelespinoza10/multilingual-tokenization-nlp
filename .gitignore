@@ -39,3 +39,14 @@ Thumbs.db
 
 # Optional: uncomment if you don't want to track sample data
 #data/*.txt
+
+artifacts/
+data/*.csv
+# o, para ignorar todo excepto los .txt de ejemplo:
+# data/*.csv
+# data/*.json
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
