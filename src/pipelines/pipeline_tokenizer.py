@@ -5,11 +5,11 @@ from typing import Dict, List, Optional, Callable, Tuple
 from torch.utils.data import DataLoader
 
 
-from src.config import BATCH_SIZE, SHUFFLE
-from src.dataset import TextDataset
-from src.collate import collate_batch
-from src.vocabs_utils import build_vocab_from_corpus
-from src.compare import summarize_tokenizers, collect_examples
+from config import BATCH_SIZE, SHUFFLE
+from dataset import TextDataset
+from collate import collate_batch
+from vocabs_utils import build_vocab_from_corpus
+from compare import summarize_tokenizers, collect_examples
 
 def load_lines(path: Path) -> List[str]:
     if not path.exists():
