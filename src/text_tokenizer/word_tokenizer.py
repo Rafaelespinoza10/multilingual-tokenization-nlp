@@ -1,6 +1,5 @@
 from typing import List, Optional
-from src.tokenizers.base import BaseTokenizer
-
+from text_tokenizer.base import BaseTokenizer
 
 class WordTokenizer(BaseTokenizer):
     def __init__(self, vocab: Optional[List[str]] = None):

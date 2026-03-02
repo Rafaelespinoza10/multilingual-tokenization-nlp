@@ -1,6 +1,6 @@
-from typing import List, Optional
-from src.tokenizers.base import BaseTokenizer
+from typing import List
 from transformers import AutoTokenizer
+from text_tokenizer.base import BaseTokenizer
 
 class HFWordpieceTokenizer(BaseTokenizer):
     def __init__(self, model_name: str = "bert-base-multilingual-cased"):

@@ -1,7 +1,6 @@
 import spacy
 from typing import List
-from src.tokenizers.base import BaseTokenizer
-
+from text_tokenizer.base import BaseTokenizer
 
 class SpacyTokenizer(BaseTokenizer):
     def __init__(self, model_name: str):
