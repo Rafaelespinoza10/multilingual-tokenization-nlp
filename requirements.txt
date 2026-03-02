@@ -2,3 +2,5 @@ torch
 pandas
 spacy
 transformers
+pytest
+scikit-learn
